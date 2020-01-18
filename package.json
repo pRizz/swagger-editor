@@ -1,10 +1,10 @@
 {
-  "name": "swagger-editor",
+  "name": "swagger-editor-binary",
   "description": "Swagger Editor",
   "version": "3.8.0",
   "main": "dist/swagger-editor.js",
   "bin": "bin/www.js",
-  "repository": "git@github.com:swagger-api/swagger-editor.git",
+  "repository": "git@github.com:pRizz/swagger-editor.git",
   "license": "Apache-2.0",
   "contributors": [
     "(in alphabetical order)",
