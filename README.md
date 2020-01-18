@@ -51,7 +51,7 @@ To help with the migration, here are the currently known issues with 3.X. This l
 Simply call
 
 ```bash
-npx swagger-editor
+npx swagger-editor-binary
 ```
 
 ## Running locally as a binary
@@ -59,13 +59,13 @@ npx swagger-editor
 Install swagger editor as a global binary with either
 
 ```bash
-npm i -g swagger-editor
+npm i -g swagger-editor-binary
 ```
 
 to install from npm. Or
 
 ```bash
-npm i -g swagger-api/swagger-editor
+npm i -g prizz/swagger-editor-binary
 ```
 
 to install from GitHub.
@@ -73,7 +73,7 @@ to install from GitHub.
 Then, once installed, simply call
 
 ```bash
-swagger-editor
+swagger-editor-binary
 ```
 
 from the command line.
