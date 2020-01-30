@@ -1,3 +1,35 @@
+## Running locally from npx
+
+Simply call
+
+```bash
+npx swagger-editor-binary
+```
+
+## Running locally as a binary
+
+Install swagger editor as a global binary with either
+
+```bash
+npm i -g swagger-editor-binary
+```
+
+to install from npm. Or
+
+```bash
+npm i -g github:prizz/swagger-editor#bin-script-npm-package
+```
+
+to install from GitHub.
+
+Then, once installed, simply call
+
+```bash
+swagger-editor-binary
+```
+
+from the command line.
+
 # <img src="https://raw.githubusercontent.com/swagger-api/swagger.io/wordpress/images/assets/SWE-logo-clr.png" height="80">
 [![NPM version](https://badge.fury.io/js/swagger-ui.svg)](http://badge.fury.io/js/swagger-editor)
 [![Build Status](https://travis-ci.org/swagger-api/swagger-editor.svg?branch=master)](https://travis-ci.org/swagger-api/swagger-editor)
@@ -45,38 +77,6 @@ To help with the migration, here are the currently known issues with 3.X. This l
 - Everything listed in [Swagger UI's Known Issues](https://github.com/swagger-api/swagger-ui/blob/master/README.md#known-issues).
 - The integration with the codegen is still missing.
 - Importing specs from a URL is not implemented.
-
-## Running locally from npx
-
-Simply call
-
-```bash
-npx swagger-editor-binary
-```
-
-## Running locally as a binary
-
-Install swagger editor as a global binary with either
-
-```bash
-npm i -g swagger-editor-binary
-```
-
-to install from npm. Or
-
-```bash
-npm i -g prizz/swagger-editor-binary
-```
-
-to install from GitHub.
-
-Then, once installed, simply call
-
-```bash
-swagger-editor-binary
-```
-
-from the command line.
 
 ## Docker
 
